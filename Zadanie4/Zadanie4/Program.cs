@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IS_2_20_HajievAA_Uchebka
+namespace Zadanie4
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace IS_2_20_HajievAA_Uchebka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Ex4());
         }
     }
 }

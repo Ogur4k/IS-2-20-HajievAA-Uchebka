@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B757CB4-8A77-401B-8F3F-3D47091808DD}</ProjectGuid>
+    <ProjectGuid>{CB4A6B84-0C3D-4A0F-AF6A-EC9535729C73}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>IS_2_20_HajievAA_Uchebka</RootNamespace>
-    <AssemblyName>IS-2-20-HajievAA-Uchebka</AssemblyName>
+    <RootNamespace>Zadanie1</RootNamespace>
+    <AssemblyName>Zadanie1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs">
+    <Compile Include="Ex1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="Ex1.Designer.cs">
+      <DependentUpon>Ex1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="Ex1.resx">
+      <DependentUpon>Ex1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,7 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include=".editorconfig" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,32 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ConnectBD\ConnectBD\ConnectBD.csproj">
-      <Project>{6c292541-bc1d-4620-bb72-efbd040ab796}</Project>
-      <Name>ConnectBD</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zadanie1\Zadanie1\Zadanie1.csproj">
-      <Project>{cb4a6b84-0c3d-4a0f-af6a-ec9535729c73}</Project>
-      <Name>Zadanie1</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zadanie2\Zadanie2\Zadanie2.csproj">
-      <Project>{be264248-6566-4d8f-815c-d6f1e70af107}</Project>
-      <Name>Zadanie2</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zadanie3\Zadanie3\Zadanie3.csproj">
-      <Project>{49142636-7c57-4f0b-9a68-3a12312d3e65}</Project>
-      <Name>Zadanie3</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zadanie4\Zadanie4\Zadanie4.csproj">
-      <Project>{f2462d7b-08fa-41da-86dd-d4142bb285c3}</Project>
-      <Name>Zadanie4</Name>
-    </ProjectReference>
-    <ProjectReference Include="Zdanie5\Zadanie5\Zadanie5\Zadanie5.csproj">
-      <Project>{6ac2019d-28f7-4510-882a-667e31a714cb}</Project>
-      <Name>Zadanie5</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
